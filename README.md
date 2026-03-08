@@ -67,7 +67,7 @@ It is designed to simulate an online shopping platform for premium bags, where u
 Use the following command to clone this repository:
 
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
+git clone [https://github.com/your-username/your-repository-name.git](https://github.com/hr145cy/ScatchBagShop)
 ````
 
 After cloning, move into the project folder:
@@ -132,7 +132,7 @@ If you like this project, consider giving it a **star** on GitHub.
 You should replace this line:
 
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
+git clone [https://github.com/your-username/your-repository-name.git](https://github.com/hr145cy/ScatchBagShop)
 ````
 
 with your actual GitHub repo link.
