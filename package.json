@@ -1,0 +1,29 @@
+{
+  "name": "scatchbagshop",
+  "version": "1.0.0",
+  "description": "This is a **Backend Development Project** that **@hr145cy** is learning and implementing **from scratch**, step-by-step.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hr145cy/ScatchBagShop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/hr145cy/ScatchBagShop/issues"
+  },
+  "homepage": "https://github.com/hr145cy/ScatchBagShop#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.4",
+    "multer": "^2.1.1"
+  }
+}
