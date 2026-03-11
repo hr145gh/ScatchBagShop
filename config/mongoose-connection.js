@@ -1,12 +1,15 @@
-const mongoose= require('mongoose');
+const mongoose= require("mongoose");
+const config= require("config");
+
+const dbgr= require("debug")("development: mongoose");   //we have made environment variables in terminal as(export DEBUG=development:*)
 
 mongoose
-.connect("mongodb://127.0.0.1:27017/scatch")
+.connect(`${config.get("MONGODB_URI")}/scatch`)   //we use backtick, to put the dynamic value
 .then(function(){
-    console.log("connected");
+    dbgr("connected");
 })
 .catch(function(err){
-    console.log(err);
+    dbgr(err);
 })
 
 module.exports= mongoose.connection;
