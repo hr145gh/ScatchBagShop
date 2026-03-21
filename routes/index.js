@@ -1,9 +1,13 @@
 const express= require("express");
 const router= express.Router();
+const isLoggedIn= require("../middlewares/isLoggedIn");
+const productModel = require("../models/product-model");
+const upload= require("../config/multer-config");
 
 // Home page (User registration)
 router.get("/", function(req, res){
-    res.render("index", { error: "" });
+    let error= req.flash("error");
+    res.render("index", { error });
 });
 
 // Owner login page
@@ -12,8 +16,19 @@ router.get("/owner", function(req, res){
 });
 
 // Shop page
-router.get("/shop", function(req, res){
-    res.redirect("/products");
+router.get("/shop", isLoggedIn, async function(req, res){
+    try {
+        let sortby = req.query.sortby || "popular";
+        let products = await productModel.find();
+        
+        if(sortby === "newest") {
+            products.reverse();
+        }
+        
+        res.render("shop", { products: products });
+    } catch (err) {
+        res.send(err.message);
+    }
 });
 
 // Cart page

@@ -66,8 +66,9 @@ router.get("/logout", function(req, res){
     res.redirect("/");
 });
 
-router.get("/", function(req, res){
-    res.send("Owner route is working");
+router.get("/admin", function(req, res){
+    let success = req.flash("success");
+    res.render("createproducts", { success });
 });
 
 module.exports= router;
