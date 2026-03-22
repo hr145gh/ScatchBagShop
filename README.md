@@ -1,6 +1,6 @@
 # 👜 Premium Bag Shop - Backend Project
 
-This is a **Backend Development Project** that **@hr145cy** is learning and implementing **from scratch**, step-by-step.
+This is a **Backend Development Project** that **@hr145gh** is learning and implementing **from scratch**, step-by-step.
 
 The project is based on an **E-commerce website for a Premium Bag Shop**.  
 It focuses on building backend concepts while also integrating frontend templating and styling tools like **EJS**, **Tailwind CSS**, and other related technologies.
