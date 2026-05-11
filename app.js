@@ -9,7 +9,6 @@ require("dotenv").config();
 
 const ownersRouter= require("./routes/ownersRouter");
 const usersRouter= require("./routes/usersRouter");
-const productsRouter= require("./routes/productsRouter");
 const indexRouter = require("./routes/index");
 
 const db= require("./config/mongoose-connection");
@@ -33,6 +32,5 @@ app.set("view engine", "ejs");
 app.use("/", indexRouter);
 app.use("/owners", ownersRouter);
 app.use("/users", usersRouter);
-app.use("/shop", productsRouter);
 
 app.listen(3000);
