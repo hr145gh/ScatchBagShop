@@ -1,28 +1,24 @@
-# 👜 Premium Bag Shop - Backend Project
+# 👜 Premium Bag Shop - Full Stack Project
 
-This is a **Backend Development Project** that **@hr145gh** is learning and implementing **from scratch**, step-by-step.
-
-The project is based on an **E-commerce website for a Premium Bag Shop**.  
-It focuses on building backend concepts while also integrating frontend templating and styling tools like **EJS**, **Tailwind CSS**, and other related technologies.
+This is a **Full Stack Project** developed by **@hr145gh**. It utilizes the **MERN** stack (MongoDB, Express.js, React, and Node.js) as the leading technology to deliver a high-performance, scalable e-commerce experience. The project seamlessly integrates a robust backend with a dynamic frontend, focusing on efficient data flow, session management, and a premium user interface.
 
 ---
 
 ## 🚀 About the Project
 
-This project is being developed as a learning journey in backend development.  
-The main goal is to understand how an e-commerce backend works in a real project environment by building it gradually.
+This project is being developed as a learning journey in full-stack development. The main goal is to understand how a modern e-commerce platform works in a real project environment by building it gradually.
 
 It includes concepts such as:
 
-- Backend routing
-- Server-side rendering
-- Database integration
-- Authentication and authorization
-- Product handling
-- User management
-- Cart / order-related logic
-- Frontend integration using **EJS**
-- Styling with **Tailwind CSS**
+* Backend routing
+* Server-side rendering
+* Database integration
+* Authentication and authorization
+* Product handling
+* User management
+* Cart / order-related logic
+* Frontend integration using **EJS**
+* Styling with **Tailwind CSS**
 
 ---
 
@@ -30,14 +26,14 @@ It includes concepts such as:
 
 The project uses the following technologies:
 
-- **Node.js**
-- **Express.js**
-- **MongoDB**
-- **Mongoose**
-- **EJS**
-- **Tailwind CSS**
-- **JavaScript**
-- Other backend-related tools and packages
+* **MongoDB** (Database)
+* **Express.js** (Backend Framework)
+* **React** (Frontend Library)
+* **Node.js** (Runtime Environment)
+* **Mongoose**
+* **EJS**
+* **Tailwind CSS**
+* **JavaScript**
 
 ---
 
@@ -45,10 +41,10 @@ The project uses the following technologies:
 
 The purpose of this repository is:
 
-- To learn backend development from scratch
-- To build a real-world style e-commerce project
-- To understand how frontend and backend connect together
-- To practice project structure and implementation step-by-step
+* To learn full-stack development from scratch
+* To build a real-world style e-commerce project
+* To understand how frontend and backend connect together
+* To practice project structure and implementation step-by-step
 
 ---
 
@@ -58,7 +54,7 @@ This project is based on:
 
 **Premium Bag Shop E-commerce Website**
 
-It is designed to simulate an online shopping platform for premium bags, where users can explore products and backend features can be implemented practically.
+It is designed to simulate an online shopping platform for premium bags, where users can explore products and features are implemented practically across the entire stack.
 
 ---
 
@@ -67,13 +63,15 @@ It is designed to simulate an online shopping platform for premium bags, where u
 Use the following command to clone this repository:
 
 ```bash
-git clone https://github.com/hr145cy/ScatchBagShop
-````
+git clone https://github.com/hr145gh/ScatchBagShop
+
+```
 
 After cloning, move into the project folder:
 
 ```bash
-cd your-repository-name
+cd ScatchBagShop
+
 ```
 
 ---
@@ -84,6 +82,7 @@ Run the following command to install all required dependencies:
 
 ```bash
 npm install
+
 ```
 
 ---
@@ -94,54 +93,60 @@ To start the project, use:
 
 ```bash
 npm start
+
 ```
 
 If you are using nodemon, then use:
 
 ```bash
 nodemon app.js
+
 ```
 
 or:
 
 ```bash
 npm run dev
+
 ```
+
+---
+
+## 🛠️ Git Workflow & Terminal Commands
+
+Use these commands to manage your code while pushing and pulling from the repository:
+
+### Update Local Repository
+
+* `git pull origin main`: Fetches the latest changes from the remote **main** branch and merges them into your current local branch. Replace **main** with your branch name (e.g., **master**).
+
+### Stage Your Changes
+
+* `git add .`: Stages all new and modified files in your current directory and subdirectories.
+* `git add <file-name>`: Stages a specific file (e.g., `git add cart.ejs`).
+
+### Commit Your Changes
+
+* `git commit -m "Your descriptive message here"`: Creates a local commit with your staged changes. Always include a clear message.
+
+### Push to GitHub
+
+* `git push origin main`: Sends your local commits to the **main** branch on the remote GitHub repository. Replace **main** with your target branch name.
 
 ---
 
 ## 📘 Learning Note
 
-This repository is mainly for learning and practice purposes.
-The project is being built step-by-step to understand backend development in a better and more practical way.
+This repository is mainly for learning and practice purposes. The project is being built step-by-step to understand full-stack development in a better and more practical way.
 
 ---
 
 ## 👨‍💻 Author
 
-Developed by **@hr145cy**
+Developed by **@hr145gh**
 
 ---
 
 ## ⭐ Support
 
 If you like this project, consider giving it a **star** on GitHub.
-
-````
-
-You should replace this line:
-
-```bash
-git clone https://github.com/hr145cy/ScatchBagShop
-````
-
-with your actual GitHub repo link.
-
-And also replace:
-
-```bash
-cd your-repository-name
-```
-
-with your actual repository folder name.
-
